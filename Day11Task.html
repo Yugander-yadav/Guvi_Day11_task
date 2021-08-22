@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container{
+        width: 700px;
+        border:5px solid black;
+    }
+    h2{
+        background-color: red;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        margin-left: 130px;
+    }
+    .form{
+        margin: 4px;;
+    }
+    
+    .chart{
+        border: 1px solid gray;
+        width: 500px;
+        height: auto;
+        margin: 20px;
+
+    }
+    table{
+        margin: 10px;
+        border-collapse: collapse;
+    }
+    table th,td{
+        border:1px solid black;
+        border-collapse: collapse;
+    }
+</style>
+</head>
+<body>
+    <a href="https://google.com" target="_blank">Click here to open Google in a new tab</a>
+    <div class="container">
+        <h2>Yes! I want to subscribe to Mag-O-Zine</h2>
+    <div class="form">
+    
+    <br>
+    <form action="#">
+        <label for="First Name">First Name</label>
+        <input type="text" id="First Name">
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="Last Name">
+        <br>
+        <label for="Address">Address</label>
+       <textarea name="Address" id="Address" cols="60" rows="1"></textarea>
+       <br>
+       <label for="City">City</label>
+       <input type="text" id="City" placeholder="Delhi">
+       <label for="State">State</label>
+       <input type="text" id="Last Name" placeholder="Telangana">
+       <label for="Zip">Zip </label>
+       <input type="text" id="Zip">
+       Subscribe for : 
+       <input type="radio" name="year" id="year1">
+       <label for="year1">1 Year($19.95)</label>
+       <input type="radio" name="year" id="year2">
+       <label for="year2">2 Years($30.00)</label>
+       <br>
+       Send me more information about: <br>
+       <input type="checkbox" name="info" id="computer"> 
+       <label for="computer">Computer-zine</label><br>
+       <input type="checkbox" name="info" id="fishing">
+       <label for="fishing">Fishing-zine</label> <br>
+       <input type="checkbox" name="info" id="cat">
+       <label for="cat">Cat-O-zine</label>
+        
+    </form>
+</div>
+    </div>
+
+<div class="chart">
+<h3>Health Chart</h3>
+
+<table>
+    <tr >
+        <th rowspan="2">State of Health</th>
+        <th colspan="2">Fasting </th>
+        <th>After Eating</th>
+    </tr>
+    <tr>
+        <th>Minimum</th>
+        <th>Maximum</th>
+        <th>2 hours after eating</th>
+    </tr>
+    <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+    </tr>
+    <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+    </tr>
+    <tr>
+        <td>Diabetes</td>
+        <td>More that 126</td>
+        <td>N/A</td>
+        <td>More that 200</td>
+    </tr>
+</table>
+
+</div>
+</body>
+</html>
